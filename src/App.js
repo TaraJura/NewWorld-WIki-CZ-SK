@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="menu">
         <ul className="nav">
-        <li><Link to="/home"><h1>New World-Wiki CZ/SK</h1></Link></li>
+        <li><Link to="/home"><h1>New World-Wiki</h1></Link></li>
         <li><Link to="/itemy"><h2>Itemy</h2></Link></li>
         <li><Link to="/minimapa"><h2>MiniMapa</h2></Link></li>
         <li><Link to="/tipyatriky"><h2>Tipy a Triky</h2></Link></li>
