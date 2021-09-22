@@ -1,0 +1,69 @@
+.menu {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu h1:hover {
+  color: rgba(105, 0, 0, 0.739);
+}
+
+.menu h2:hover {
+  color: rgba(105, 0, 0, 0.739);
+}
+
+ul.nav {
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav {
+    background-image: url(https://nwhub.gg/wp-content/uploads/2021/08/navigation_background-2.jpg);
+    background-attachment: scroll;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: initial;
+  }
+  
+  .nav li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 10vw 0 0;
+    text-decoration: none;
+  }
+
+ .menu h1 {
+    color: rgba(240, 248, 255, 0.322);
+  }
+
+  .menu h2 {
+    color: rgba(240, 248, 255, 0.52);
+  }
+
+  body {
+    background: url(https://nwhub.gg/wp-content/uploads/2021/08/background.jpg) repeat-y;
+    background-size: 100%;
+    margin: 0 auto;
+}
+
+
+@media only screen and (max-width: 1550px) {
+  .nav li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 8vw 0 0;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .nav li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 6vw 0 0;
+    text-decoration: none;
+  }
+}
