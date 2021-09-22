@@ -1,0 +1,38 @@
+.menuvideo {
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+video {
+    object-fit: contain;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#homescreen {
+    margin: 0 auto;
+}
+
+#homelogo {
+    position: absolute;
+    height: 40%;
+    width: 40%;
+    left: 30%;
+    top: 10%;
+    text-align: center;
+}
+
+#homelogo h1{
+    color: rgba(255, 255, 255, 0.698);
+}
+
+#logoimg {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
