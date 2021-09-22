@@ -1,5 +1,6 @@
 import './style1.css';
 import Itemy from './Itemy';
+import Minimapa from './minimapa';
 import {
   BrowserRouter as Router,
   Switch,
@@ -29,7 +30,7 @@ function App() {
           </Route>
           <Route path="/minimapa">
             <minimapa />
-              
+            <Minimapa />
           </Route>
           <Route path="/tipyatriky">
             <tipyatriky />
