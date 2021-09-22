@@ -23,15 +23,12 @@ function App() {
         </ul>
         <Switch>
           <Route path="/home">
-            <home />
             <Home />
           </Route>
           <Route path="/itemy">
-            <itemy />
               <Itemy />
           </Route>
           <Route path="/minimapa">
-            <minimapa />
             <Minimapa />
           </Route>
           <Route path="/tipyatriky">
