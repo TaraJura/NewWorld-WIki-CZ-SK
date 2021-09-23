@@ -1,10 +1,13 @@
 **New World Wiki CZ/SK**
 
-How to run the project
+How to run the project?
 
-**run start.bat**
+**Option 1**
 
-**OR**
+run start.bat
+wait till the end, dont close the cmd.
+
+**Option 2**
 
 1. Open terminal and run `npm install`
 2. Run `npm start`
