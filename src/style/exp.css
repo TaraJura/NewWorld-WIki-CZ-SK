@@ -10,3 +10,16 @@
     border:none;
     margin: 0 auto;
 }
+
+table {
+    text-align: center;
+    color:teal;
+}
+
+table {
+padding: 25px;
+}
+
+table td {
+    border: 1px solid rgba(255, 255, 255, 0.096);
+}
