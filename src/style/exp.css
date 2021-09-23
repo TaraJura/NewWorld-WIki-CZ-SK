@@ -1,10 +1,12 @@
-#tipyatriky {
+#exp {
     text-align: center;
     margin: 0 auto;
+    color: white;
+    width: 50%;
+    margin: 0 25% 0 25%;
 }
 
-#iframetipyatriky {
+#iframeexp {
     border:none;
     margin: 0 auto;
 }
-
