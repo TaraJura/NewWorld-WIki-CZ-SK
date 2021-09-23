@@ -1,6 +1,7 @@
 import './style/style1.css';
 import Itemy from './pages/Itemy';
 import Minimapa from './pages/minimapa';
+import Exp from './pages/exp';
 import Home from './home';
 import Companies from './companies';
 
@@ -20,8 +21,8 @@ function App() {
           <li><Link to="/itemy"><h2>Itemy</h2></Link></li>
           <li><Link to="/minimapa"><h2>MiniMapa</h2></Link></li>
           <li><Link to="/companies"><h2>Company</h2></Link></li>
-          <li><Link to="/tipyatriky"><h2>Exp</h2></Link></li>
-          <li><Link to="/discord"><h2>CZ / SK Company</h2></Link></li>
+          <li><Link to="/exp"><h2>Exp</h2></Link></li>
+          <li><Link to="/discord"><h2>Discord</h2></Link></li>
         </ul>
       </div>
         <div>
@@ -35,8 +36,8 @@ function App() {
             <Route path="/companies">
               <Companies />
             </Route>
-            <Route path="/tipyatriky">
-              <tipyatriky />
+            <Route path="/exp">
+              <Exp />
             </Route>
             <Route path="/discord">
               <discord /> 
