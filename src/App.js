@@ -2,6 +2,7 @@ import './style1.css';
 import Itemy from './Itemy';
 import Minimapa from './minimapa';
 import Home from './home';
+import Companies from './companies';
 
 import {
   BrowserRouter as Router,
@@ -9,6 +10,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <li><Link to="/"><h1>New World-Wiki</h1></Link></li>
           <li><Link to="/itemy"><h2>Itemy</h2></Link></li>
           <li><Link to="/minimapa"><h2>MiniMapa</h2></Link></li>
+          <li><Link to="/companies"><h2>Company</h2></Link></li>
           <li><Link to="/tipyatriky"><h2>Tipy a Triky</h2></Link></li>
           <li><Link to="/discord"><h2>Discord</h2></Link></li>  
         </ul>
@@ -29,6 +32,9 @@ function App() {
             </Route>
             <Route path="/minimapa">
               <Minimapa />
+            </Route>
+            <Route path="/companies">
+              <Companies />
             </Route>
             <Route path="/tipyatriky">
               <tipyatriky />
@@ -44,6 +50,5 @@ function App() {
     </Router>
   );
 }
-
 
 export default App;

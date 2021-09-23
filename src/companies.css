@@ -1,0 +1,9 @@
+.grid-padding {
+    padding: 30px;
+}
+.MuiDataGrid-root,
+.MuiTablePagination-root,
+.MuiSelect-icon,
+.MuiButtonBase-root{
+    color: #acacac!important;
+}
