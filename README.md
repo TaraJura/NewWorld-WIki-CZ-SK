@@ -1,13 +1,13 @@
 **New World Wiki CZ/SK**
 
-How to run the project?
+Jak spustit projekt?
 
-**Option 1**
+**Možnost 1**
 
 run start.bat
-wait till the end, dont close the cmd.
+Počkej do konce a nevypínej příkazový řádek!
 
-**Option 2**
+**Možnost 2**
 
-1. Open terminal and run `npm install`
-2. Run `npm start`
+1. Otevři terminál a spusť `npm install`
+2. spusť `npm start`
