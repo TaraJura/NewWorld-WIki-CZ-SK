@@ -15,32 +15,32 @@ function App() {
     <Router>
       <div className="menu">
         <ul className="nav">
-        <li><Link to="/home"><h1>New World-Wiki</h1></Link></li>
-        <li><Link to="/itemy"><h2>Itemy</h2></Link></li>
-        <li><Link to="/minimapa"><h2>MiniMapa</h2></Link></li>
-        <li><Link to="/tipyatriky"><h2>Tipy a Triky</h2></Link></li>
-        <li><Link to="/discord"><h2>Discord</h2></Link></li>  
+          <li><Link to="/"><h1>New World-Wiki</h1></Link></li>
+          <li><Link to="/itemy"><h2>Itemy</h2></Link></li>
+          <li><Link to="/minimapa"><h2>MiniMapa</h2></Link></li>
+          <li><Link to="/tipyatriky"><h2>Tipy a Triky</h2></Link></li>
+          <li><Link to="/discord"><h2>Discord</h2></Link></li>  
         </ul>
-        <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/itemy">
-              <Itemy />
-          </Route>
-          <Route path="/minimapa">
-            <Minimapa />
-          </Route>
-          <Route path="/tipyatriky">
-            <tipyatriky />
-             
-          </Route>
-          <Route path="/discord">
-            <discord />
-              
-          </Route>
-        </Switch>
       </div>
+        <div>
+          <Switch>
+            <Route path="/itemy">
+                <Itemy />
+            </Route>
+            <Route path="/minimapa">
+              <Minimapa />
+            </Route>
+            <Route path="/tipyatriky">
+              <tipyatriky />
+            </Route>
+            <Route path="/discord">
+              <discord /> 
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </div>
     </Router>
   );
 }
