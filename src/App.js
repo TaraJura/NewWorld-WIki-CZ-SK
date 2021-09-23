@@ -1,6 +1,6 @@
-import './style1.css';
-import Itemy from './Itemy';
-import Minimapa from './minimapa';
+import './style/style1.css';
+import Itemy from './pages/Itemy';
+import Minimapa from './pages/minimapa';
 import Home from './home';
 
 import {

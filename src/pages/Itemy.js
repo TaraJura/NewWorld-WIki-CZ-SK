@@ -1,5 +1,5 @@
 import React from 'react'
-import './itemy.css';
+import '../style/itemy.css';
 
 export default function Itemy() {
     return (
