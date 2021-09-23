@@ -4,7 +4,7 @@ Jak spustit projekt?
 
 **Možnost 1**
 
-run start.bat
+Klikni na start.bat
 Počkej do konce a nevypínej příkazový řádek!
 
 **Možnost 2**
