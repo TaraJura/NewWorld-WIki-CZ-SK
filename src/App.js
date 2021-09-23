@@ -3,7 +3,7 @@ import Itemy from './pages/Itemy';
 import Minimapa from './pages/minimapa';
 import Exp from './pages/exp';
 import Home from './home';
-import Companies from './companies';
+import Companies from './pages/companies';
 
 import {
   BrowserRouter as Router,
